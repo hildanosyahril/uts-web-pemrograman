@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informasi Stok</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="card"><h1>Informasi Stok / Katalog Buku</h1><a class="btn btn-gray" href="dashboard.html">Kembali</a></header>
+  <main class="card">
+    <table>
+      <thead><tr><th>Kode</th><th>Judul</th><th>Kategori</th><th>Harga</th><th>Stok</th></tr></thead>
+      <tbody id="tabelStok"></tbody>
+    </table>
+  </main>
+  <section class="card" style="max-width:800px;margin:0 auto;">
+    <h2>Tambah Stok Baru</h2>
+    <label for="kode">Kode</label><input id="kode">
+    <label for="judul">Judul</label><input id="judul">
+    <label for="kategori">Kategori</label><input id="kategori">
+    <label for="harga">Harga</label><input id="harga" type="number" min="0">
+    <label for="stok">Stok</label><input id="stok" type="number" min="0">
+    <button id="tambah">Tambah</button>
+  </section>
+  <script src="data.js"></script>
+  <script src="js/stok.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pemesanan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="card"><h1>Halaman Pemesanan</h1><a class="btn btn-gray" href="dashboard.html">Kembali</a></header>
+  <main class="card">
+    <h2>Data Pesanan</h2>
+    <select id="pilihBuku"></select>
+    <button id="tambahBuku">Tambah ke Pesanan</button>
+    <table>
+      <thead><tr><th>Judul</th><th>Harga</th><th>Jumlah</th><th>Subtotal</th><th>Aksi</th></tr></thead>
+      <tbody id="tabelPesanan"></tbody>
+    </table>
+    <h3>Total: <span id="total">Rp 0</span></h3>
+  </main>
+  <section class="card" style="max-width:800px;margin:0 auto;">
+    <h2>Data Pemesan &amp; Pembayaran</h2>
+    <form id="formPesan">
+      <label for="nama">Nama Pemesan</label><input id="nama" required>
+      <label for="alamat">Alamat</label><textarea id="alamat" required></textarea>
+      <label for="hp">No. HP</label><input id="hp" type="tel" required>
+      <label for="bayar">Metode Pembayaran</label>
+      <select id="bayar"><option>Transfer Bank</option><option>E-Wallet</option><option>COD</option></select>
+      <button type="submit">Pesan Sekarang</button>
+    </form>
+  </section>
+  <script src="data.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

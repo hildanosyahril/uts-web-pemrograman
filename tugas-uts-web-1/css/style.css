@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f0f4f8; margin: 0; padding: 20px; color: #222; }
+header, main, footer { max-width: 800px; margin: 0 auto 16px; }
+.card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+h1, h2 { margin-top: 0; }
+label { display: block; margin: 10px 0 4px; font-weight: bold; }
+input, select, textarea { width: 100%; padding: 8px; border: 1px solid #bbb; border-radius: 6px; }
+button, .btn { display: inline-block; background: #2563eb; color: #fff; border: 0; padding: 9px 16px; margin: 8px 4px 0 0; border-radius: 6px; cursor: pointer; text-decoration: none; font-size: 14px; }
+button:hover, .btn:hover { background: #1d4ed8; }
+.btn-gray { background: #6b7280; } .btn-red { background: #dc2626; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background: #2563eb; color: #fff; }
+.modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.5); justify-content: center; align-items: center; }
+.modal.show { display: flex; }
+.modal-content { background: #fff; padding: 20px; border-radius: 10px; width: 90%; max-width: 380px; }
+.menu { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.menu .btn { text-align: center; padding: 18px; margin: 0; }
+.bar { background: #ddd; border-radius: 20px; overflow: hidden; height: 22px; margin: 8px 0; }
+.bar div { height: 100%; background: #16a34a; color: #fff; font-size: 12px; text-align: center; line-height: 22px; }
