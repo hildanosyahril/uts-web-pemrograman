@@ -10,7 +10,7 @@ Aplikasi web sederhana untuk pemesanan buku pada toko online. Fokus pada front-e
 dengan data dummy dari file `data.js`.
 
 ## Link Video YouTube
-https://youtube.com/watch?v=XXXXXXXX
+https://youtu.be/n6S2mw0pYhw?si=Dp2pbb__zD52dPO1
 
 ## Teknologi
 HTML, CSS, JavaScript
